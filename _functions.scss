@@ -1,0 +1,15 @@
+//
+// Functions for calcluating spaces
+// Inspired By: http://goo.gl/elchyz
+//
+// .css {
+//  margin-top: quarter($base-space-unit); // => margin-top: 0.25em;
+// }
+
+@function quarter($value)   { @return $value / 4; }
+@function halve($value)     { @return $value / 2; }
+@function halve($value)     { @return $value / 2; }
+
+@function double($value)    { @return $value * 2; }
+@function threefold($value) { @return $value * 3; }
+@function quadruple($value) { @return $value * 4; }
