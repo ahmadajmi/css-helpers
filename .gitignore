@@ -1,3 +1,5 @@
-### Sass ###
 .sass-cache
-
+.grunt
+node_modules
+*.DS_Store
+.DS_Store

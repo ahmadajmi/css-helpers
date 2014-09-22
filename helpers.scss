@@ -11,13 +11,15 @@
 //
 // Clearfix
 
-.clearfix:before,
-.clearfix:after {
-  content: " ";
-  display: table;
-}
+.clearfix {
+  &:before,
+  &:after {
+    content: " ";
+    display: table;
+  }
 
-.clearfix:after { clear: both; }
+  &:after { clear: both; }
+}
 
 
 //
@@ -26,7 +28,6 @@
 .fixed    { position: fixed; }
 .relative { position: relative; }
 .absolute { position: absolute; }
-.static   { position: static; }
 
 
 //
@@ -40,12 +41,14 @@
 .align-top      { vertical-align: top;}
 .align-bottom   { vertical-align: bottom;}
 .align-middle   { vertical-align: middle;}
+.align-baseline { vertical-align: baseline; }
 
 
 //
 // Width && Height
 
-.fw               { width: 100%; }
+.fit              { max-width: 100%; }
+.full-width       { width: 100%; }
 .full-min-height  { min-height: 100%; }
 .full-height      { height: 100vh; }
 
@@ -56,7 +59,7 @@
 .inline       { display: inline; }
 .block        { display: block; }
 .inline-block { display: inline-block; }
-.hide         { display: none; }
+.hidden       { display: none; }
 .flex         { display: flex; }
 
 
@@ -94,6 +97,14 @@
 
 
 //
+// Font
+
+.bold { font-weight: bold; }
+.regular { font-weight: bold; }
+.italic { font-style: italic; }
+
+
+//
 // Backgrounds
 
 .white-bg   { background-color: $white; }
@@ -128,8 +139,8 @@
   text-overflow: ellipsis;
 }
 
-.break-word                   { word-wrap: break-word; }
-
+.break-word         { word-wrap: break-word; }
+.no-wrap            { white-space: nowrap !important; }
 
 //
 // Radius

@@ -1,0 +1,13 @@
+{
+  "name": "css-helpers",
+  "version": "0.0.1",
+  "author": "λhmad λjmi",
+  "private": true,
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-sass": "^0.8.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "matchdep": "^0.3.0"
+  }
+}
