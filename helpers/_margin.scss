@@ -1,0 +1,60 @@
+//
+// Margin
+//
+
+//
+// Top Margin
+
+.margin-top-none        { margin-top: 0; }
+.margin-top-quarter     { margin-top: quarter($base-space-unit); }
+.margin-top-half        { margin-top: halve($base-space-unit); }
+.margin-top-one         { margin-top: $base-space-unit; }
+.margin-top-two         { margin-top: double($base-space-unit); }
+.margin-top-three       { margin-top: threefold($base-space-unit); }
+.margin-top-four        { margin-top: quadruple($base-space-unit); }
+
+
+//
+// Bottom Margin
+
+.margin-bottom-none     { margin-bottom: 0; }
+.margin-bottom-quarter  { margin-bottom: quarter($base-space-unit); }
+.margin-bottom-half     { margin-bottom: halve($base-space-unit); }
+.margin-bottom-one      { margin-bottom: $base-space-unit; }
+.margin-bottom-two      { margin-bottom: double($base-space-unit); }
+.margin-bottom-three    { margin-bottom: threefold($base-space-unit); }
+.margin-bottom-four     { margin-bottom: quadruple($base-space-unit); }
+
+
+//
+// Right Margin
+.margin-right-none      { margin-right: 0; }
+.margin-right-quarter   { margin-right: quarter($base-space-unit); }
+.margin-right-half      { margin-right: halve($base-space-unit); }
+.margin-right-one       { margin-right: $base-space-unit; }
+.margin-right-two       { margin-right: double($base-space-unit); }
+.margin-right-three     { margin-right: threefold($base-space-unit); }
+.margin-right-four      { margin-right: quadruple($base-space-unit); }
+
+
+//
+// Left Margin
+
+.margin-left-none       { margin-left: 0; }
+.margin-left-quarter   { margin-left: quarter($base-space-unit); }
+.margin-left-half      { margin-left: halve($base-space-unit); }
+.margin-left-one       { margin-left: $base-space-unit; }
+.margin-left-two       { margin-left: double($base-space-unit); }
+.margin-left-three     { margin-left: threefold($base-space-unit); }
+.margin-left-four      { margin-left: quadruple($base-space-unit); }
+
+
+//
+// Margin All
+.margin-none      { margin: 0; }
+.margin-quarter   { margin: quarter($base-space-unit); }
+.margin-half      { margin: halve($base-space-unit); }
+.margin-one       { margin: $base-space-unit; }
+.margin-two       { margin: double($base-space-unit); }
+.margin-three     { margin: threefold($base-space-unit); }
+.margin-four      { margin: quadruple($base-space-unit); }

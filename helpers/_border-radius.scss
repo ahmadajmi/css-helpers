@@ -1,0 +1,9 @@
+//
+// Border Radius
+//
+
+.radius                  { border-radius: $base-radius-unit; }
+.radius-top              { border-radius: $base-radius-unit $base-radius-unit 0 0; }
+.radius-right            { border-radius: 0 $base-radius-unit $base-radius-unit 0; }
+.radius-bottom           { border-radius: 0 0 $base-radius-unit $base-radius-unit; }
+.radius-left             { border-radius: $base-radius-unit 0 0 $base-radius-unit; }

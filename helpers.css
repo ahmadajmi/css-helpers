@@ -1,7 +1,7 @@
-.left {
+.float-left {
   float: left; }
 
-.right {
+.float-right {
   float: right; }
 
 .clearfix:before, .clearfix:after {
@@ -119,6 +119,17 @@
 .italic {
   font-style: italic; }
 
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.break-word {
+  word-wrap: break-word; }
+
+.no-wrap {
+  white-space: nowrap !important; }
+
 .white-bg {
   background-color: white; }
 
@@ -163,17 +174,6 @@
 
 .border-left--dark {
   border-left: 1px solid #bdc3c7; }
-
-.truncate {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis; }
-
-.break-word {
-  word-wrap: break-word; }
-
-.no-wrap {
-  white-space: nowrap !important; }
 
 .radius {
   border-radius: 3px; }

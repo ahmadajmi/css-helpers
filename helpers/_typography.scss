@@ -1,0 +1,21 @@
+//
+// Typography
+//
+
+.bold     { font-weight: bold; }
+.regular  { font-weight: bold; }
+.italic   { font-style: italic; }
+
+
+//
+// Text Controlls
+//
+
+.truncate {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.break-word         { word-wrap: break-word; }
+.no-wrap            { white-space: nowrap !important; }

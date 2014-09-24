@@ -1,0 +1,61 @@
+//
+// Padding
+//
+
+//
+// Top Padding
+
+.padding-top-none       { padding-top: 0; }
+.padding-top-quarter    { padding-top: quarter($base-space-unit); }
+.padding-top-halve      { padding-top: halve($base-space-unit); }
+.padding-top-one        { padding-top: $base-space-unit; }
+.padding-top-two        { padding-top: double($base-space-unit); }
+.padding-top-three      { padding-top: threefold($base-space-unit); }
+.padding-top-four       { padding-top: quadruple($base-space-unit); }
+
+
+//
+// Bottom Padding
+
+.padding-bottom-none    { padding-bottom: 0; }
+.padding-bottom-quarter { padding-bottom: quarter($base-space-unit); }
+.padding-bottom-halve   { padding-bottom: halve($base-space-unit); }
+.padding-bottom-one     { padding-bottom: $base-space-unit; }
+.padding-bottom-two     { padding-bottom: double($base-space-unit); }
+.padding-bottom-three   { padding-bottom: threefold($base-space-unit); }
+.padding-bottom-four    { padding-bottom: quadruple($base-space-unit); }
+
+
+//
+// Right Padding
+
+.padding-right-none       { padding-right: 0; }
+.padding-right-quarter    { padding-right: quarter($base-space-unit); }
+.padding-right-halve      { padding-right: halve($base-space-unit); }
+.padding-right-one        { padding-right: $base-space-unit; }
+.padding-right-two        { padding-right: double($base-space-unit); }
+.padding-right-three      { padding-right: threefold($base-space-unit); }
+.padding-right-four       { padding-right: quadruple($base-space-unit); }
+
+
+//
+// Left Padding
+.padding-left-none       { padding-left: 0; }
+.padding-left-quarter    { padding-left: quarter($base-space-unit); }
+.padding-left-halve      { padding-left: halve($base-space-unit); }
+.padding-left-one        { padding-left: $base-space-unit; }
+.padding-left-two        { padding-left: double($base-space-unit); }
+.padding-left-three      { padding-left: threefold($base-space-unit); }
+.padding-left-four       { padding-left: quadruple($base-space-unit); }
+
+
+//
+// Padding All
+
+.padding-none           { padding: 0; }
+.padding-quarter        { padding: quarter($base-space-unit); }
+.padding-halve          { padding: halve($base-space-unit); }
+.padding-one            { padding: $base-space-unit; }
+.padding-two            { padding: double($base-space-unit); }
+.padding-three          { padding: threefold($base-space-unit); }
+.padding-four           { padding: quadruple($base-space-unit); }
