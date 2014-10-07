@@ -2,9 +2,10 @@
 // Color
 //
 
-.white      { color: $white; }
-.gray       { color: $gray; }
+.white            { color: $white; }
+.gray             { color: $gray; }
+.dark-gray        { color: $darkgray; }
 
-.notice     { color: $notice; }
-.success    { color: $success; }
-.danger     { color: $danger; }
+.notice           { color: $notice; }
+.success          { color: $success; }
+.alert            { color: $alert; }

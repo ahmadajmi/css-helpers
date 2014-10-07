@@ -2,8 +2,10 @@
 // Background Colors
 //
 
-.white-bg   { background-color: $white; }
-.dark-bg    { background-color: $dark; }
-.notice-bg  { background-color: $notice; }
-.success-bg { background-color: $success; }
-.danger-bg  { background-color: $danger; }
+.white-bg         { background-color: $white; }
+.gray-bg          { background-color: $gray; }
+.dark-gray-bg     { background-color: $darkgray; }
+
+.notice-bg        { background-color: $notice; }
+.success-bg       { background-color: $success; }
+.alert-bg         { background-color: $alert; }
