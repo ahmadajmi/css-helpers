@@ -8,7 +8,7 @@ module.exports = function(grunt){
 		watch: {
 			css: {
 				files: ['*.scss'],
-				tasks: ['buildcss']
+				tasks: ['build']
 			}
 		},
 		cssmin: {
@@ -27,6 +27,6 @@ module.exports = function(grunt){
 	});
 
 	grunt.registerTask('default', ['buildcss']);
-	grunt.registerTask('buildcss',  ['sass', 'cssmin']);
+	grunt.registerTask('build',  ['sass', 'cssmin']);
 
 };
