@@ -4,7 +4,9 @@ A small library of CSS helper classes that can be used to reduce the amount of C
 
 You can install it using bower as
 
+```
 bower install css-helpers
+```
 
 Or you can download it manualy and idd it to your project.
 

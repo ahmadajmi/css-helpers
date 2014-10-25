@@ -1,9 +1,9 @@
 {
   "name": "css-helpers",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "homepage": "https://github.com/ahmadajmi/css-helpers",
   "authors": [
-    "λhmad λjmi <ahmadajmi@outlook.com>"
+    "λhmad λjmi <ahmad@ahmadajmi.com>"
   ],
   "description": "A small CSS library that provides a set of CSS helper classes.",
   "main": "helpers.scss",
