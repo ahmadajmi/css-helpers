@@ -1,0 +1,25 @@
+{
+  "name": "css-helpers",
+  "version": "0.0.0",
+  "homepage": "https://github.com/ahmadajmi/css-helpers",
+  "authors": [
+    "λhmad λjmi <ahmadajmi@outlook.com>"
+  ],
+  "description": "A small CSS library that provides a set of CSS helper classes.",
+  "main": "helpers.scss",
+  "keywords": [
+    "css",
+    "utility",
+    "classes",
+    "helper",
+    "classes"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
