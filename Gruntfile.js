@@ -26,7 +26,7 @@ module.exports = function(grunt){
 		}
 	});
 
-	grunt.registerTask('default', ['buildcss']);
+	grunt.registerTask('default', ['build','watch']);
 	grunt.registerTask('build',  ['sass', 'cssmin']);
 
 };

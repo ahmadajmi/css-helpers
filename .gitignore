@@ -3,5 +3,5 @@
 node_modules
 *.DS_Store
 .DS_Store
-*.css
+*.map
 *.swp
