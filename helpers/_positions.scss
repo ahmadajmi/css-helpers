@@ -6,3 +6,34 @@
 .relative { position: relative; }
 .absolute { position: absolute; }
 
+.top-none       { top: 0; }
+.top-quarter    { top: quarter($base-space-unit); }
+.top-halve      { top: halve($base-space-unit); }
+.top-one        { top: $base-space-unit; }
+.top-two        { top: double($base-space-unit); }
+.top-three      { top: threefold($base-space-unit); }
+.top-four       { top: quadruple($base-space-unit); }
+
+.right-none       { right: 0; }
+.right-quarter    { right: quarter($base-space-unit); }
+.right-halve      { right: halve($base-space-unit); }
+.right-one        { right: $base-space-unit; }
+.right-two        { right: double($base-space-unit); }
+.right-three      { right: threefold($base-space-unit); }
+.right-four       { right: quadruple($base-space-unit); }
+
+.bottom-none       { bottom: 0; }
+.bottom-quarter    { bottom: quarter($base-space-unit); }
+.bottom-halve      { bottom: halve($base-space-unit); }
+.bottom-one        { bottom: $base-space-unit; }
+.bottom-two        { bottom: double($base-space-unit); }
+.bottom-three      { bottom: threefold($base-space-unit); }
+.bottom-four       { bottom: quadruple($base-space-unit); }
+
+.left-none       { left: 0; }
+.left-quarter    { left: quarter($base-space-unit); }
+.left-halve      { left: halve($base-space-unit); }
+.left-one        { left: $base-space-unit; }
+.left-two        { left: double($base-space-unit); }
+.left-three      { left: threefold($base-space-unit); }
+.left-four       { left: quadruple($base-space-unit
